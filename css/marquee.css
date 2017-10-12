@@ -1,0 +1,77 @@
+
+/*---------------------------------------------*/
+.hslide {
+ overflow: hidden;
+ position: relative;
+ z-index: 9;
+}
+
+.hslide h3 {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;	
+ line-height: 50px;
+ text-align: left;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: hslide 45s linear infinite;
+ -webkit-animation: hslide 45s linear infinite;
+ animation: hslide 45s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes hslide {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes hslide {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes hslide {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+ #news-bar {
+ position: absolute;
+  top: calc(100% - 45px);
+  height: 45px;
+}
+/* #news-bar :hover {
+    animation-play-state: paused
+}
+
+*/
+#news-bar {
+  width: 100%;
+  background: rgba(61, 61, 61,.6);
+  font: 21px bold;
+  padding:0px;
+}
+
+#news-bar a {
+  padding:8px 2px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  width: 100%;
+}
+#news-bar a[href] {
+    color: #ffff00;
+    font-weight: bold;
+}

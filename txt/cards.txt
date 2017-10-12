@@ -1,0 +1,32 @@
+card1(bgColor,buttonColor){
+[List]
+item 1
+item 2
+item 3
+[P]
+jhflj kjhfljhfljh hjl lhghlglkjjgk <p href="hello.html"> kgdkhgdkdgkhgk
+[img]
+../image/im1.png
+[List]
+ddd1
+ddd 2 
+ddd 3
+[readMoreButton]
+../xxx.html
+}
+card2(bgColor,buttonColor){
+[List]
+item 1
+item 2
+item 3
+[P]
+jhflj kjhfljhfljh hjl lhghlglkjjgk <p href="hello.html"> kgdkhgdkdgkhgk
+[img]
+../image/im1.png
+[List]
+ddd1
+ddd 2 
+ddd 3
+[readMoreButton]
+../xxx.html
+}

@@ -1,0 +1,33 @@
+
+/*.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+
+}*/
+
+.hoverlay {
+  position:absolute;
+  width: 200px;
+  left: -220px;
+  height: auto;
+  top:auto;
+  background: linear-gradient(rgba(1,0,0,.5), rgba(1,0,0,.3));
+
+  -webkit-transition: left 2s; /* Safari */
+  transition: left 8s ease;
+  transition-delay: 2s;
+  transition: 2s ease;
+}
+.hoverlay:hover {
+    left: 50px;
+}
+
+.text {
+  padding: 0px 10px 0px 10px;
+  color: white;
+}
+

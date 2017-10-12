@@ -1,0 +1,7 @@
+project_1{
+../img/prg1/
+}
+project_2{
+../img/prg2/
+}
+

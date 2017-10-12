@@ -1,0 +1,20 @@
+index{
+# all are html file pathes
+	menu
+	carousel1
+	../cards/card1
+	../cards/card2
+	../cards/card3
+	../cards/card4
+	footer
+}
+marine{
+# all are html file pathes
+	menu
+	carousel2
+	../cards/card11
+	../cards/card12
+	../cards/card13
+	../cards/card14
+	footer
+}
