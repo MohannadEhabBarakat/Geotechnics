@@ -65,14 +65,7 @@
 .buttonr:focus {
     box-shadow: 0 0 0 3px rgba(220,53,69,.5);
 }
-.dcard{
-    display: inline-block;
-    width: 30%;
-    margin-left: 11%;
-    max-width: 250px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+
 
 .dp{
     margin-top: 50px;

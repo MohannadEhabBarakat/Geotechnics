@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="../css/bootstrap.css">
-<style>
-    .card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  width: 100%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  
-  border-radius: 0.25rem;
-text-align: center;
-}
-    .card img{width: 100%;}
+    <style>
+        .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border-radius: 0.25rem;
+            text-align: center;
+            display: inline-block;
+            width: 30%;
+            margin-left: 11%;
+            max-width: 250px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            float: left;
+        }
+        
+        .card img {
+            width: 100%;
+        }
+
     </style>
 </head>
 
@@ -30,11 +40,40 @@ text-align: center;
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">Harbor and Terminal planning.</li>
-            <li class="list-group-item">Design  of quay walls, breakwaters and dredging.</li>
+            <li class="list-group-item">Design of quay walls, breakwaters and dredging.</li>
             <li class="list-group-item">Design of Offshore Structures and facilities.</li>
         </ul>
         <div class="card-body">
             <button type="button" class="buttonb button" onclick="window.location='Marine.html'">Read more...</button>
+        </div>
+    </div>
+    <div class="card cardgreen">
+        <img class="card-img-top" src="images/6.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-title">Geotechnical Engineering</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Perform geotechnical testing and investigations.</li>
+            <li class="list-group-item">Design of foundation systems, retaining systems, underground facilities, deep structures.</li>
+            <li class="list-group-item">Design of infrastructure, roads and dewatering work.</li>
+        </ul>
+        <div class="card-body">
+            <button type="button" class="buttong button" onclick="">Read more...</button>
+        </div>
+    </div>
+    <div class="card cardred">
+        <img class="card-img-top" src="images/6.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-title">Shore Protection Engineering</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Design of shore protection breakwaters, revetments groins and beach management.</li>
+            <li class="list-group-item">Monitoring of Wind, Wave and Environmental parameters.</li>
+        </ul>
+        <div class="card-body">
+            <button type="button" class="buttonr button" onclick="">Read more...</button>
         </div>
     </div>
 </body>
